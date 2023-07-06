@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtCalculations">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtResults"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -56,7 +56,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/btn7"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -65,7 +65,7 @@
                 android:src="@drawable/seven" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/btn8"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -74,7 +74,7 @@
                 android:src="@drawable/eight" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/btn9"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -83,7 +83,7 @@
                 android:src="@drawable/nine" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/btnAdd"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="clip_horizontal"
@@ -99,7 +99,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/btn4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -108,7 +108,7 @@
                 android:src="@drawable/four" />
 
             <ImageButton
-                android:id="@+id/imageButton6"
+                android:id="@+id/btn5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -117,7 +117,7 @@
                 android:src="@drawable/five" />
 
             <ImageButton
-                android:id="@+id/imageButton7"
+                android:id="@+id/btn6"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -126,7 +126,7 @@
                 android:src="@drawable/six" />
 
             <ImageButton
-                android:id="@+id/imageButton8"
+                android:id="@+id/btnMul"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="clip_horizontal"
@@ -142,7 +142,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/btn1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -151,7 +151,7 @@
                 android:src="@drawable/one" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/btn2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -160,7 +160,7 @@
                 android:src="@drawable/two" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/btn3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal"
@@ -169,12 +169,12 @@
                 android:src="@drawable/three" />
 
             <ImageButton
-                android:id="@+id/imageButton12"
+                android:id="@+id/btnSub"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="clip_horizontal"
                 android:layout_weight="1"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 android:src="@drawable/subtract" />
         </LinearLayout>
 
@@ -185,7 +185,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnClear"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
@@ -195,23 +195,24 @@
                 android:textSize="50sp" />
 
             <ImageButton
-                android:id="@+id/imageButton19"
+                android:id="@+id/btn0"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/zero" />
 
             <ImageButton
-                android:id="@+id/imageButton18"
+                android:id="@+id/btnDiv"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:scaleType="centerCrop"
                 android:src="@drawable/divide" />
         </LinearLayout>
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btnEqual"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:src="@drawable/equal"
